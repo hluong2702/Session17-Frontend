@@ -1,0 +1,10 @@
+let r = prompt(`Moi ban nhap vao ban kinh `);
+let h = prompt(`Moi ban nhap vao chieu cao `);
+let surroundingArea = 2 * Math.PI * r * h;
+let totalArea =surroundingArea + 2 * Math.PI * Math.pow(r, 2);
+let volume = Math.PI * Math.pow(r, 2) * h;
+let bottomCircumference = 2 * Math.PI * r;
+document.write(`Diện tích xung quanh hình trụ là: ${surroundingArea} <br/> `);
+document.write(`Diện tích toàn phần hình trụ là: ${totalArea}<br/> `);
+document.write(`Thể tích hình trụ là: ${volume}<br/>`);
+document.write(`Chu vi đáy hình trụ là: ${bottomCircumference}<br/>`);
